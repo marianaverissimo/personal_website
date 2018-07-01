@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 10px;
+}
+
+.navbar{
+  display:flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.links p{
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: black;
+  margin-top: 7vh;
+  margin-left: 10vh;
+  margin-right: 1vh;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  font-size: 2.5rem;
+}
+
+
+.languages a{
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  margin-top: 7vh;
+  margin-left: 9vh;
+}
+
+
+#selected_lang{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1C0095;
+}
+
+.intro{
+  width: 60%;
+  font-family: 'Montserrat';
+  margin-left: 10vh;
+  margin-top: 15vh;
+  height: 30em;
+}
+
+.hi{
+  font-size: 1.7rem;
+  font-size: 500;
+}
+
+.name{
+  font-size: 10rem;
+  font-weight: 800;
+  color: #1C0095;
+}
+
+.job{
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 4vh;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.photo{
+  margin-top: 9vh;
+  background-image: url("profile.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 70%;
+}
+
+.scroll{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin-top: 0;
+}
+
+.scroll_p{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 200;
+  transform: rotate(-90deg);
+  height: 3vh;
+  margin-left: 10vh;
+  margin-top: 1vh;
+}
+
+.line{
+  border-left: 1px solid black;
+  height: 11vh;
+  width: 10%;
+}
